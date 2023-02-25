@@ -12,9 +12,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'To-Do List',
       debugShowCheckedModeBanner: false,
       home: const HomePage(),
+      theme: ThemeData(
+        primarySwatch: Colors.yellow,
+      ),
     );
   }
 }
